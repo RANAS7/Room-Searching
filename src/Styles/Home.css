@@ -1,0 +1,79 @@
+/* Home.css */
+
+/* Card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between cards */
+}
+
+/* Card styles */
+.room-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px; /* Adjust the card width as needed */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+
+  /* Center content horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.all {
+  margin-top: 30px;
+}
+
+.room-card:hover {
+  transform: scale(1.05); /* Add a slight zoom effect on hover */
+}
+
+/* Image styles */
+.room-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Title and description styles */
+.room-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.room-description {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Category label styles */
+.room-category-label {
+  background-color: #3498db;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Room size styles */
+.room-size {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+.category-title {
+  font-family: sans-serif;
+  font-size: 22px;
+  padding: 20px;
+}
+.category-apart {
+  margin-top: 20px;
+}
+.all {
+  display: grid;
+  gap: 20px;
+}

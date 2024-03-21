@@ -1,0 +1,68 @@
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add padding for spacing */
+  color: #fff;
+}
+
+.all {
+  margin-top: 30px;
+  text-align: center;
+  bottom: 0%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50px; /* Adjust the logo size as needed */
+  height: 50px;
+  margin-right: 10px; /* Add some spacing between the logo and text */
+}
+
+.footer-logo-text {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+.link {
+  color: #fff; /* Link color */
+  text-decoration: none;
+  margin: 5px 0; /* Add spacing between links */
+  font-size: 1rem; /* Adjust the font size as needed */
+  transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.link:hover {
+  color: #00bcd4; /* Change link color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-text {
+  font-size: 0.8rem; /* Adjust the font size as needed */
+}
+
+/* Add styles for responsive design if needed */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+}
